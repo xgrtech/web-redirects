@@ -4,5 +4,5 @@
     "old-domain2.com": "https://yoursite.com/landing",
     "old-domain3.net": "https://yoursite.com/special"
   },
-  "defaultRedirect": "https://yoursite.com"
+  "defaultRedirect": "https://travolia.com"
 }
