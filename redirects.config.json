@@ -1,8 +1,6 @@
 {
   "redirects": {
-    "old-domain1.com": "https://yoursite.com",
-    "old-domain2.com": "https://yoursite.com/landing",
-    "old-domain3.net": "https://yoursite.com/special"
+    "biliki.ai": "https://travolia.com"
   },
   "defaultRedirect": "https://travolia.com"
 }
