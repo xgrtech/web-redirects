@@ -1,6 +1,32 @@
 {
-  "redirects": {
-    "biliki.ai": "https://travolia.com"
+  "defaults": {
+    "targetUrl": "https://wealthfold.com",
+    "delaySeconds": 2,
+    "message": "This Domain is For Sale!",
+    "subMessage": "You will be redirected shortly...",
+    "contactEmail": "kluddomains@gmail.com",
+    "showCountdown": true
   },
-  "defaultRedirect": "https://travolia.com"
+  "domains": {
+    "biliki.ai": {
+      "targetUrl": "https://wealthfold.com",
+      "delaySeconds": 3,
+      "message": "biliki.ai is For Sale!"
+    },
+    "example-domain-2.com": {
+      "targetUrl": "https://your-target-site-2.com",
+      "delaySeconds": 2,
+      "message": "example-domain-2.com is For Sale!"
+    },
+    "example-domain-3.com": {
+      "targetUrl": "https://your-target-site-3.com",
+      "delaySeconds": 2,
+      "message": "example-domain-3.com is For Sale!"
+    },
+    "example-domain-4.com": {
+      "targetUrl": "https://your-target-site-4.com",
+      "delaySeconds": 2,
+      "message": "example-domain-4.com is For Sale!"
+    }
+  }
 }
