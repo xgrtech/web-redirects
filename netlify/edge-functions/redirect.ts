@@ -1,4 +1,4 @@
-import redirectConfig from "../../redirects.config.json" with { type: "json" };
+import redirectConfig from "../../redirects.config.json" assert { type: "json" };
 
 interface DomainConfig {
   targetUrl: string;
