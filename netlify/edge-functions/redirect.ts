@@ -1,4 +1,4 @@
-import redirectConfig from "../../redirects.config.json" assert { type: "json" };
+import redirectConfig from "../../redirects.config.json" with { type: "json" };
 
 interface DomainConfig {
   targetUrl: string;
@@ -14,11 +14,11 @@ interface RedirectConfig {
   domains: Record<string, Partial<DomainConfig>>;
 }
 
-const config = redirectConfig as RedirectConfig;
+const settings = redirectConfig as RedirectConfig;
 
 function getConfigForDomain(hostname: string): DomainConfig {
-  const defaults = config.defaults;
-  const domainOverrides = config.domains?.[hostname] || {};
+  const defaults = settings.defaults;
+  const domainOverrides = settings.domains?.[hostname] || {};
 
   return {
     targetUrl: domainOverrides.targetUrl || defaults.targetUrl,
