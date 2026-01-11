@@ -9,7 +9,7 @@
   },
   "domains": {
     "biliki.ai": {
-      "targetUrl": "https://wealthfold.com",
+      "targetUrl": "https://travolia.com",
       "delaySeconds": 3,
       "message": "biliki.ai is For Sale!"
     },
