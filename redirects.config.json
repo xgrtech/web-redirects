@@ -13,10 +13,10 @@
       "delaySeconds": 3,
       "message": "biliki.ai is For Sale!"
     },
-    "example-domain-2.com": {
-      "targetUrl": "https://your-target-site-2.com",
+    "lensgo.ai": {
+      "targetUrl": "https://travolia.com",
       "delaySeconds": 2,
-      "message": "example-domain-2.com is For Sale!"
+      "message": "lensgo.ai is For Sale!"
     },
     "example-domain-3.com": {
       "targetUrl": "https://your-target-site-3.com",
