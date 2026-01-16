@@ -18,15 +18,15 @@
       "delaySeconds": 2,
       "message": "lensgo.ai is For Sale!"
     },
-    "example-domain-3.com": {
-      "targetUrl": "https://your-target-site-3.com",
+    "liveapps.ai": {
+      "targetUrl": "https://wealthfold.com",
       "delaySeconds": 2,
-      "message": "example-domain-3.com is For Sale!"
+      "message": "liveapps.ai is For Sale!"
     },
-    "example-domain-4.com": {
-      "targetUrl": "https://your-target-site-4.com",
+    "balo.cc": {
+      "targetUrl": "https://wealthfold.com",
       "delaySeconds": 2,
-      "message": "example-domain-4.com is For Sale!"
+      "message": "balo.cc is For Sale!"
     }
   }
 }
